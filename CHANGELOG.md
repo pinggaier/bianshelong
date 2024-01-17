@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 This project uses the changelog in accordance with [keepchangelog](http://keepachangelog.com/). Please use this to write notable changes, which is not the same as git commit log...
 
 ## [unreleased][unreleased]
+ - Implement a "server" mode in mfkey32v2 to avoid spawning one process per combination (@p-l-)
  - Skip already used items `hf mf elog --decrypt` (@p-l-)
  - Parallelize mfkey32v2 processes called from CLI (@p-l-)
  - Added support for mifare classic value block operations (@taichunmin)
